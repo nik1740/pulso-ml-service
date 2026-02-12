@@ -1,0 +1,28 @@
+# PyTorch with CUDA 12.x
+--extra-index-url https://download.pytorch.org/whl/cu124
+torch>=2.2.0
+torchvision>=0.17.0
+
+# Transformers & Quantization
+transformers>=4.38.0
+accelerate>=0.27.0
+bitsandbytes>=0.42.0
+scipy
+sentencepiece
+protobuf
+
+# API
+fastapi
+uvicorn
+python-multipart
+pydantic>=2.0.0
+
+# Image Processing
+Pillow
+numpy
+
+# Utils
+safetensors
+huggingface_hub
+requests
+httpx

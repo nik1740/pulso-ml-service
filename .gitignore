@@ -1,4 +1,41 @@
+# Python
 venv/
 __pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Model files & weights (Heavy)
+models/
 *.bin
+*.pt
 *.safetensors
+*.pth
+*.h5
+
+# System/user config files
+.bash_history
+.bash_logout
+.bashrc
+.profile
+.face
+.face.icon
+.gitconfig
+.cache/
+.local/
+.nv/
+.config/
+.env
+
+# IDE / tool files
+.antigravity-server/
+.gemini/
+.vscode/
+.idea/
+
+# Temporary / Debug files
+diagnose_image.py
+IMPLEMENTATION_PLAN.md
+backend_integration_example.py
